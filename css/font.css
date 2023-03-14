@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Reforma 1918 Blanca';
+    src: url('../fonts/Reforma1918-BlancaItalica.woff2') format('woff2'),
+        url('../fonts/Reforma1918-BlancaItalica.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1918 Blanca';
+    src: url('../fonts/Reforma1918-Blanca.woff2') format('woff2'),
+        url('../fonts/Reforma1918-Blanca.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1918 Gris';
+    src: url('../fonts/Reforma1918-GrisItalica.woff2') format('woff2'),
+        url('../fonts/Reforma1918-GrisItalica.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1918 Blanca';
+    src: url('../fonts/Reforma1918-Negra.woff2') format('woff2'),
+        url('../fonts/Reforma1918-Negra.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1918 Gris';
+    src: url('../fonts/Reforma1918-Gris.woff2') format('woff2'),
+        url('../fonts/Reforma1918-Gris.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1918 Negra';
+    src: url('../fonts/Reforma1918-NegraItalica.woff2') format('woff2'),
+        url('../fonts/Reforma1918-NegraItalica.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1969 Negra';
+    src: url('../fonts/Reforma1969-NegraItalica.woff2') format('woff2'),
+        url('../fonts/Reforma1969-NegraItalica.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1969 Gris';
+    src: url('../fonts/Reforma1969-Gris.woff2') format('woff2'),
+        url('../fonts/Reforma1969-Gris.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1969 Gris';
+    src: url('../fonts/Reforma1969-GrisItalica.woff2') format('woff2'),
+        url('../fonts/Reforma1969-GrisItalica.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1969 Blanca';
+    src: url('../fonts/Reforma1969-BlancaItalica.woff2') format('woff2'),
+        url('../fonts/Reforma1969-BlancaItalica.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1969 Blanca';
+    src: url('../fonts/Reforma1969-Blanca.woff2') format('woff2'),
+        url('../fonts/Reforma1969-Blanca.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 1969 Blanca';
+    src: url('../fonts/Reforma1969-Negra.woff2') format('woff2'),
+        url('../fonts/Reforma1969-Negra.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 2018 Gris';
+    src: url('../fonts/Reforma2018-GrisItalica.woff2') format('woff2'),
+        url('../fonts/Reforma2018-GrisItalica.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 2018 Gris';
+    src: url('../fonts/Reforma2018-Gris.woff2') format('woff2'),
+        url('../fonts/Reforma2018-Gris.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 2018 Blanca';
+    src: url('../fonts/Reforma2018-Blanca.woff2') format('woff2'),
+        url('../fonts/Reforma2018-Blanca.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 2018 Blanca';
+    src: url('../fonts/Reforma2018-BlancaItalica.woff2') format('woff2'),
+        url('../fonts/Reforma2018-BlancaItalica.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 2018 Blanca';
+    src: url('../fonts/Reforma2018-Negra.woff2') format('woff2'),
+        url('../fonts/Reforma2018-Negra.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Reforma 2018 Negra';
+    src: url('../fonts/Reforma2018-NegraItalica.woff2') format('woff2'),
+        url('../fonts/Reforma2018-NegraItalica.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

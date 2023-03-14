@@ -1,0 +1,513 @@
+:root{
+    --bs-dark: #0b1517;
+    --bs-dark-rgb: 11, 21, 23;
+    --bs-primary: #CA9C5E;
+    --bs-primary-rgb: 202, 156, 94;
+    --bs-secondary: #ffffff;
+    --bs-secondary-rgb: 255, 255, 255;
+    --bs-light-text: #ffffff;
+    --bs-body-font-family: 'Reforma 2018 Blanca';
+	--bs-border-color: #CA9C5E;
+	--bs-border-width: 2px;
+}
+
+.side-tog-2{
+	right:398px!important;
+	opacity:99%;
+}
+body{
+	overflow-x:hidden;
+}
+.py-120{
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+.py-40{
+	padding-top:55%;
+	padding-bottom:40%;
+}
+.p-2rem{
+	padding:2rem;
+}
+.fs-65{
+	font-size: 65px;
+}
+.fs-40{
+	font-size: 50px;
+}
+
+/* header */
+
+header .logo img{
+    width: 80%;
+}
+.head-after{
+	position:fixed !important;
+	top: 0px;
+	backdrop-filter: blur(11px);
+	
+}
+header{
+	z-index:999;
+	width:100%;
+}
+nav ul li:hover a{
+	color: var(--bs-primary)!important;
+	border-bottom: 1px solid var(--bs-primary);
+}
+nav ul li a{
+	transition: all 0.6s;
+}
+
+.mega-dropdown{
+	width: 100%;
+	background-color: #fff;
+	left: 0;
+	top: 80%;
+	transition: all 0.5s;
+	visibility: hidden;
+	opacity: 0;
+	overflow-y: scroll;
+	height: 530px;
+	z-index: 100;
+}
+.mega-drop:hover .mega-dropdown{
+	visibility: visible;
+	opacity: 1;
+}	
+
+/* banner */
+
+.banner{
+	background-image: url(../images/banner-img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	border: 10px solid var(--bs-primary);
+	z-index:1;
+}
+.banner::after{
+	background-color:rgba(0,0,0,0.5);
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.left-l{
+	top:70%;
+	left:-5%;
+}
+.right-l{
+	top:70%;
+	right:-5%;
+}
+
+/* DESTINATION */
+.d-content h1{
+	font-size:42px;
+}
+
+/* image-section */
+.image-section .d-img{
+	top:30%;
+	left:16.5%;
+	z-index:-1;
+}
+.image-section .s-img-box{
+	top:-120%;
+	left:-16%;
+}
+
+/* our-menus */
+.popup{
+	background-color: #fff;
+	width: 400px;
+	height: auto;
+	padding:10px;
+	padding-left: 60px;
+	border-radius: 5%;
+	top: -35%;
+	right: -75%;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.7s;
+	z-index: 99999;
+}
+.popup-arrow{
+	top: 35%;
+	left: -6%;
+	font-size: 42px;
+	color: #fff;
+}
+.main-popup:hover .popup{
+	visibility: visible;
+	opacity: 1;
+}
+.popup1{
+	background-color: #fff;
+	width: 400px;
+	height: auto;
+	padding:10px;
+	padding-left: 60px;
+	border-radius: 5%;
+	top: -35%;
+	right: 105%;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.7s;
+	z-index: 99999;
+}
+.popup-1{
+	background-color: #fff;
+	width: 400px;
+	height: auto;
+	padding:10px;
+	padding-left: 60px;
+	border-radius: 5%;
+	top: -35%;
+	left: 105%;
+	visibility: hidden;
+	opacity: 0;
+	transition: all 0.7s;
+	z-index: 99999;
+}
+.popup-arrow1{
+	top: 23%;
+	left: 96%;
+	font-size: 42px;
+	color: #fff;
+}
+.popup-arrow-1{
+	top: 23%;
+	right: 96%;
+	font-size: 42px;
+	color: #fff;
+}
+
+.main-popup1:hover .popup1,.main-popup-1:hover .popup-1{
+	visibility: visible;
+	opacity: 1;
+}
+.om-img{
+	padding-top: 300px;
+}
+.photo-1{
+	top: 18%;
+	left: -10%;
+}
+.photo-2{
+	z-index: 5;
+}
+.photo-2 img{
+	transition: all 0.5s;
+}
+.photo-2:hover img{
+	padding-top: 35px;
+}
+
+/* online */
+.online{
+	background-image: url(../images/s-online-img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom:60px;
+	padding-top:60px;
+	z-index:1;
+	background-attachment: fixed;
+}
+.online::after{
+	background-color:rgba(0,0,0,0.5);
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.online h1{
+	font-size:60px;
+}
+.online .left-l{
+	top:70%;
+	left:-10%;
+}
+.online .right-l{
+	top:65%;
+	right:0%;
+	width:20%;
+}
+
+/* wilma */
+.i1{
+	width: 334px;
+	height: 345px;
+	overflow: hidden;
+}
+.i2{
+	width: 504px;
+	height: 345px;
+	overflow: hidden;
+}
+.i3{
+	width: 224px;
+	height: 345px;
+	overflow: hidden;
+}
+.i4{
+	width: 516px;
+	height: 345px;
+	overflow: hidden;
+}
+.i5{
+	width: 229px;
+	height: 345px;
+	overflow: hidden;
+}
+.i6{
+	width: 318px;
+	height: 345px;
+	overflow: hidden;
+}
+.i1 img,.i2 img,.i3 img,.i4 img,.i5 img,.i6 img{
+	width: 100%;
+	transition: all 0.5s ;
+	background-size: cover;
+	border-radius: 5%;
+}
+.i1:hover img,.i2:hover img,.i3:hover img,.i4:hover img,.i5:hover img,.i6:hover img{
+	transform: scale(110%);
+}
+
+/* footer */
+footer .f-content ul li a{
+	transition:all 0.5s;
+}
+footer .f-content ul li:hover a{
+	color: var(--bs-primary)!important;
+}
+
+/* About */
+
+/* banner-1 */
+.banner-1 .leaf-l{
+	top: 10%;
+	left: -1%;
+}
+.banner-1 .leaf-r{
+	top: 15%;
+	right: -33%;
+	width: 60%;
+}
+
+/* about-foods */
+.about-design .about-design{
+	top: 25%;
+	left: 0%;
+	width: 40%;
+}
+.about-design .about-leaf{
+	top: -58%;
+	right: -9%;
+	width: 40%;
+	z-index:10;
+}
+
+/* our menus */
+
+/* banner-2 */
+.banner-2 .leaf-l{
+	top: -5%;
+	left: -6%;
+}
+.banner-2 .leaf-r{
+	top: -10%;
+	right: -30%;
+	width: 55%;
+}
+.banner-2 .tomato-img{
+	top:0%;
+	right:-0.8%;
+	width:20%;
+}
+.banner-2 .ice-b2-img{
+	top:75%;
+	left:-5.5%;
+	width:25%;
+}
+.banner-2 .paineple-b2-img{
+	top:100%;
+	right:-5%;
+	width:25%;
+}
+.banner-2 .paineple-b2-img .b2-design{
+	top:15%;
+	left:-55%;
+	z-index:-5;
+}
+.pho img{
+	z-index: -99!important;
+	left: -10%;
+}
+
+.photos h2{
+	font-size: 55px;
+}
+.pic-1{
+	right: -10%;
+	top: 15%;
+}
+.pic-2{
+	top: 20%;
+	right: 2%;
+
+}
+
+/* premeum-taste */
+.premeum-taste .slad-img-premeum-test{
+	left: 0%;
+	top: 40%;
+	z-index:5;
+}
+.premeum-taste .leaf-primeum-test{
+	right: -15%;
+	top: 42%;
+	z-index:5;
+}
+.modal h1{
+	font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.modal h2{
+	font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+/* Reservation */
+.banner-3{
+	background-image: url(../images/b3-image-reservation.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	border: 10px solid var(--bs-primary);
+	z-index:1;
+}
+.banner-3::after{
+	background-color:rgba(0,0,0,0.5);
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.banner-3 .ice-b3{
+	top:50%;
+	left:-8%;
+	z-index:5;
+}
+.banner-3 .leaf-b3{
+	top:50%;
+	right:-1%;
+	z-index:5;
+	width: 22%;
+}
+
+/* img-sec */
+.img-sec{
+	background-image: url(../images/img-sec-bg-reservation.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	z-index: 6;
+	position: relative;
+	
+}
+
+.img-sec::after{
+	background-color:rgba(0,0,0,0.5);
+	content:'';
+	position:absolute;
+	width:100%;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+/* Discover */
+
+.Discover{
+	background-image: url(../images/discover-bg-img.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	z-index:1;
+	background-attachment: fixed;
+}
+.Discover::after{
+	background-color:rgba(0,0,0,0.5);
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.Discover h1{
+	font-size:60px;
+}
+.Discover .left-l{
+	top:100%;
+	left:-10%;
+}
+.Discover .right-l{
+	top:65%;
+	right:0%;
+	width:20%;
+}
+
+/* contect */
+
+/* banner-4 */
+.banner-4{
+	background-image: url(../images/contect-benner-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	border: 10px solid var(--bs-primary);
+	z-index:1;
+
+}
+.banner-4::after{
+	background-color:rgba(0,0,0,0.3);
+	content:'';
+	position:absolute;
+	width:100%;
+	height:100%;
+	left:0;
+	top:0;
+	z-index:-1;
+}
+.banner-4 .leaf-l-bn{
+	top:75%;
+	left:-25%;
+	width:45%;
+	z-index:100;
+}
+.banner-4 .leaf-r-bn{
+	top:65%;
+	right:-13%;
+	z-index:10;
+	width: 30%;
+}

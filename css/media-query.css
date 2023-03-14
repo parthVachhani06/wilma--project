@@ -1,0 +1,84 @@
+@media (max-width: 575px) {
+	.f-xs-tagline{
+		font-size: 10px;
+	}	
+	.f-xs-heding{
+		font-size:40px;
+	}
+	.f-xs-p{
+		font-size:10px;
+		margin-bottom:15px;
+	}
+	.border-tb{
+		border-top: 2px solid var(--bs-primary);
+		border-bottom: 2px solid var(--bs-primary);
+	}
+}
+
+@media ( min-width: 576px) {
+	.f-sm-tagline{
+		font-size: 15px;
+	}	
+	.f-sm-heding{
+		font-size:50px;
+	}
+	.f-sm-p{
+		font-size:12px;
+		margin-bottom:15px;
+	}
+	.border-tb{
+		border-top: 2px solid var(--bs-primary);
+		border-bottom: 2px solid var(--bs-primary);
+	}
+}
+
+@media ( min-width: 768px) {
+	.f-md-tagline{
+		font-size: 18px;
+	}	
+	.f-md-heding{
+		font-size:70px;
+	}
+	.f-md-p{
+		font-size:20px;
+		margin-bottom:20px;
+	}
+	.border-se{
+		border-right: 2px solid var(--bs-primary);
+		border-left: 2px solid var(--bs-primary);
+	}
+	.border-tb{
+		border-top: none;
+		border-bottom: none;
+	}
+}
+
+@media ( min-width: 992px) {
+	.f-lg-tagline{
+		font-size: 18px;
+	}	
+	.f-lg-heding{
+		font-size:75px;
+	}
+	.f-lg-p{
+		font-size:20px;
+		margin-bottom:25px;
+	}
+}
+
+@media ( min-width: 1200px) {
+	.f-xl-tagline{
+		font-size: 20px;
+	}	
+	.f-xs-heding{
+		font-size:95px;
+	}
+	.f-xs-p{
+		font-size:20px;
+		margin-bottom:25px;
+	}
+}
+
+@media ( min-width: 1400px) {
+	
+}
